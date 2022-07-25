@@ -1,0 +1,70 @@
+/* fredoka-regular - latin */
+@font-face {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/fredoka-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fredoka-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* fredoka-700 - latin */
+  @font-face {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/fredoka-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fredoka-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+body {
+    font-family: 'Fredoka';
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.main-item {
+    transition: all 0.3s ease;
+    max-width: 200px;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    font-weight: bold;
+}
+
+.categories-text {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+
+.btn {
+    font-weight: bold;
+    font-size: 9px;
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.main-item:hover {
+    transform: scale(1.1);
+}
+
+.text-heading {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.heightOfItem, .weightOfItem, .typeOfItem {
+    font-weight: bold;
+}
